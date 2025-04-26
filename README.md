@@ -30,4 +30,6 @@ Fraud detection trends over time.
 Agent-specific risk dashboards.
 Frequently used flagged phrases.
 Correlation between call length and fraud risk.
+workflow:![image alt](![image](https://github.com/user-attachments/assets/12f2d9e4-ca68-425f-8fab-2d600611b5cc)
+
 
