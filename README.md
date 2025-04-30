@@ -37,9 +37,7 @@ Correlation between call length and fraud risk.
 3. Model Execution via Ollama + LLaMA 3.2
 4. Output: Featured Dataset 
 5.Results and Analysis
-![image alt](![image](https://github.com/user-attachments/assets/687b8823-3be7-4e8a-96fc-d07a3cb29f3b)
-![Image](https://github.com/user-attachments/assets/26168fb0-dd25-4ff6-8478-43470dbe6cf9)
-![Image](https://github.com/user-attachments/assets/d1a4a041-7ff1-4e13-8b88-59df2ddd7773)
+
 
 
 
