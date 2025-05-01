@@ -33,10 +33,28 @@ Correlation between call length and fraud risk.
 ## workflow:![image alt](![image](https://github.com/user-attachments/assets/12f2d9e4-ca68-425f-8fab-2d600611b5cc)
 # Methodology:
 1. Input: Raw Call Transcripts
+    An Excel file where each row represents a sales call.
 2. Automated Feature Extraction (Python Script)
+   A Python automation script processes the transcript dataset and extracts key business intelligence and compliance-related features using two sets of carefully 
+   crafted prompts:
+   Tech: Python + pandas/numpy
 3. Model Execution via Ollama + LLaMA 3.2
-4. Output: Featured Dataset 
-5.Results and Analysis
+   LLaMA 3.2 is used as the Natural Language Processing (NLP) engine to analyze raw sales call transcripts and extract structured business-related and fraud- 
+   detection features.The integration of LLaMA is accomplished through prompt engineering and local API deployment via Ollama,The prompt is sent to the LLaMA 3.2 
+   model using the Ollama API locally.
+ 4. Output: Featured Dataset
+ 5. The model’s output is parsed and structured into a feature-rich Excel dataset, with over 35+ features classified into:
+    Boolean (e.g., Fraudulent Activity, Trust Issue)
+    Categorical (e.g., Sentiment labels)
+    Numeric (e.g., Word Counts, Speech Ratio)
+ 6.Results and Analysis
+  Sentiment Analysis-Fraud calls have higher negative sentiment for both agents and customers
+  Speech Ratio-Agents speak less; customers speak more in fraud calls
+  Tone-Agents maintain a professional tone; customers often appear skeptical
+  Engagement-Fraud calls have higher back-and-forth exchanges, turns, and total word count
+  Compliance-86% of fraud calls violate security protocols
+  Offers/Testimonial-Rare in fraud calls; fraud agents tend to ask more and offer less
+
 
 
 
